@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("This is test project!")
+	fmt.Println("This is test project!123")
 }
