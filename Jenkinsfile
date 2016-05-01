@@ -12,7 +12,8 @@ node {
    sh '''
 ls -l
 env
-go version
+whereis go
+/usr/bin/go version
 go build main.go -o main
 '''
    stage 'Docker build'
