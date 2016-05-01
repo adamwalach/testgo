@@ -20,4 +20,4 @@ go build -o main main.go
    sh '''#!/bin/bash
    docker build -t gotest:$BRANCH_NAME ./
    '''
-}
+} 
