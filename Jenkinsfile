@@ -18,6 +18,6 @@ go build -o main main.go
 '''
    stage 'Docker build'
    sh '''#!/bin/bash
-   docker build -t gotest:${env.BRANCH_NAME} ./
+   docker build -t gotest:$BRANCH_NAME ./
    '''
 }
