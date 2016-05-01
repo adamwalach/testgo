@@ -9,9 +9,10 @@ node {
    checkout scm
    stage 'Project build'
    sh '''
-   go version
-   go build main.go -o main
-   '''
+ls -l
+go version
+go build main.go -o main
+'''
    stage 'Docker build'
    sh '''
    docker -t gotest .
