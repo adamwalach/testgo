@@ -21,4 +21,3 @@ go build -o main main.go
    docker build -t gotest ./
    '''
 }
- 
