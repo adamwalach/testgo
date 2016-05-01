@@ -9,7 +9,8 @@ node {
    checkout scm
    stage 'Project build'
    sh '''
-ls -l 
+ls -l
+env
 go version
 go build main.go -o main
 '''
