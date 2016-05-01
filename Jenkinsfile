@@ -14,7 +14,7 @@ ls -l
 env
 whereis go
 /usr/bin/go version
-go build main.go -o main
+go build -o main main.go
 '''
    stage 'Docker build'
    sh '''
