@@ -18,6 +18,6 @@ go build -o main main.go
 '''
    stage 'Docker build'
    sh '''
-   docker -t gotest ./
+   docker build -t gotest ./
    '''
 }
