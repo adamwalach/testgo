@@ -15,9 +15,9 @@ env
 whereis go
 /usr/bin/go version
 go build -o main main.go
-'''#!/bin/bash
+'''
    stage 'Docker build'
-   sh '''
+   sh '''#!/bin/bash
    docker build -t gotest:${env.BRANCH_NAME} ./
    '''
 }
