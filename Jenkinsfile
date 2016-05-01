@@ -5,4 +5,6 @@ node {
      ls -l
      pwd
    '''
+   stage 'Checkout'
+   checkout scm
 }
